@@ -12,11 +12,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-// maptoolkit.p.rapidapi.com/staticmap/?maptype=terrain&size=640x480&center=$lat,$lng&zoom=18&marker=center:$lat,$lng|anchor:bottom&rapidapi-key=$RapidAPI-Key
   final lat = '10.55064988168991';
   final lng = '76.22298099120178';
-
-  // https://maptoolkit.p.rapidapi.com/staticmap/?maptype=terrain&size=480x640&center=10.55064988168991,76.22298099120178&zoom=16&marker=center:10.55064988168991,76.22298099120178|anchor:bottom&rapidapi-key=f4fd6fb59bmshcb4ec42beb8f554p1f8bb7jsn030ee32b48a5
 
   // Future<void> getLocation() async {
   //   try {
